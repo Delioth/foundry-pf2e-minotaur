@@ -1,0 +1,75 @@
+{
+  "name": "pf2e-minotaur",
+  "title": "PF2e Minotaur",
+  "description": "A module to implement the Minotaur ancestry & associated options.",
+  "author": "Delioth",
+  "version": "1.0.0",
+  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "9",
+  "packs": [
+    {
+      "label": "Minotaur - Ancestry",
+      "type": "Item",
+      "name": "minotaur-ancestry",
+      "path": "./packs/minotaur-ancestry.db",
+      "system": "pf2e",
+      "package": "pf2e-minotaur",
+      "private": false
+    },
+    {
+      "label": "Minotaur - Equipment",
+      "type": "Item",
+      "name": "minotaur-equipment",
+      "path": "./packs/minotaur-equipment.db",
+      "system": "pf2e",
+      "package": "pf2e-minotaur",
+      "private": false
+    },
+    {
+      "label": "Minotaur - Heritages",
+      "type": "Item",
+      "name": "minotaur-heritages",
+      "path": "./packs/minotaur-heritages.db",
+      "system": "pf2e",
+      "package": "pf2e-minotaur",
+      "private": false
+    },
+    {
+      "label": "Minotaur - Feats",
+      "type": "Item",
+      "name": "minotaur-feats",
+      "path": "./packs/minotaur-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-minotaur",
+      "private": false
+    }
+  ],
+  "flags": {
+    "pf2e-minotaur": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "double-crossbow": "Double Crossbow"
+        },
+        "weaponTraits": {
+          "minotaur": {
+            "label": "Minotaur",
+            "description": "This weapon is built and commonly used by minotaurs."
+          }
+        },
+        "featTraits": {
+          "minotaur": "Minotaur"
+        },
+        "creatureTraits": {
+          "minotaur": "Minotaur"
+        }
+      }
+    }
+  },
+  "system": [
+    "pf2e"
+  ],
+  "url": "https://github.com/Delioth/foundry-pf2e-minotaur",
+  "manifest": "https://raw.githubusercontent.com/Delioth/foundry-pf2e-minotaur/main/module.json",
+  "download": "https://github.com/Delioth/foundry-pf2e-minotaur/archive/refs/heads/main.zip",
+  "minimumSystemVersion": "3.8"
+}
